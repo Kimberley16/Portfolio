@@ -15,7 +15,7 @@ function App() {
       }}
       whileHover={{ scale: 0.5 }}
     >
-      GeeksforGeeks
+      Porfolio
     </motion.div>
   );
 }
