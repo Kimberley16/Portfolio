@@ -1,5 +1,4 @@
 header {
-  height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
   text-align: center;
@@ -7,6 +6,7 @@ header {
 
 .cta {
   margin-top: 2.5rem;
+  margin-bottom: -8rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -32,8 +32,6 @@ header {
 .me {
   width: 22rem;
   height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
   margin-top: 4rem;
 }
 
@@ -42,4 +40,10 @@ header {
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
+}
+
+.pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
