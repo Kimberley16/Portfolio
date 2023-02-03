@@ -21,17 +21,23 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 9rem;
+  color: var(--color-bg);
+  background: var(--color-primary);
+  width: 3rem;
+  height: 10rem;
+  border-radius: 0.4rem;
 }
 
 .header__socials::after {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--color-primary);
+  background: var(--color-bg);
 }
 
 .me {
@@ -46,8 +52,22 @@ header {
 .scroll_down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  bottom: 12rem;
   transform: rotate(90deg);
+  color: var(--color-bg);
+  background: var(--color-primary);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll_down:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
 }
 
 .pic {
