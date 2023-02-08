@@ -18,13 +18,13 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about_card">
+            <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>BeCode training</small>
             </article>
 
-            <article className="about_card">
+            <article className="about__card">
               <GiOpenFolder className="about__icon" />
               <h5>Project</h5>
               <small>My training projects</small>
