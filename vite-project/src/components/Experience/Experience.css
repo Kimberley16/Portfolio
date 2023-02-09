@@ -1,0 +1,53 @@
+.hardskills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  background: var(--color-primary);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.hardskills:hover {
+  background: transparent;
+  border-color: var(--color-bg);
+  cursor: default;
+}
+
+.softskills {
+  background: var(--color-primary);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.softskills:hover {
+  background: transparent;
+  border-color: var(--color-bg);
+  cursor: default;
+}
+
+.Myexperience {
+  background: var(--color-primary);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.Myexperience:hover {
+  background: transparent;
+  border-color: var(--color-bg);
+  cursor: default;
+}
+
+.experience__container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
