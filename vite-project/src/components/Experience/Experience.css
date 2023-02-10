@@ -17,6 +17,9 @@
 }
 
 .softskills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
   background: var(--color-primary);
   border: 1px solid transparent;
   border-radius: 1rem;
@@ -34,10 +37,16 @@
 .Myexperience {
   background: var(--color-primary);
   border: 1px solid transparent;
-  border-radius: 1rem;
+  border-radius: 50%;
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
+  width: 20rem;
+  height: 20rem;
+  /* margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 .Myexperience:hover {
@@ -50,4 +59,46 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+}
+p {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #experience {
+    margin-top: 17rem;
+  }
+
+  .experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .hardskills {
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .softskills {
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Myexperience {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    display: flex;
+    flex-direction: column;
+  }
 }

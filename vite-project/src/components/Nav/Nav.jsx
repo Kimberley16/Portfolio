@@ -3,7 +3,7 @@ import "./Nav.css";
 import { AiTwotoneHome } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
-import { RiServiceFill } from "react-icons/ri";
+import { SiFiles } from "react-icons/si";
 import { AiFillMessage } from "react-icons/ai";
 import { useState } from "react";
 
@@ -33,11 +33,11 @@ const Nav = () => {
         <FaBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <RiServiceFill />
+        <SiFiles />
       </a>
       <a
         href="#contact"

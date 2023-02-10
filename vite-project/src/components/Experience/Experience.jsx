@@ -6,6 +6,11 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
+import { RiCustomerService2Line } from "react-icons/ri";
+import { MdReportProblem } from "react-icons/md";
+import { RiTeamLine } from "react-icons/ri";
+import { VscFeedback } from "react-icons/vsc";
+import { GiTalk } from "react-icons/gi";
 
 const Experience = () => {
   return (
@@ -24,14 +29,24 @@ const Experience = () => {
         </div>
 
         <div className="softskills">
-          <h5>Ui oriented</h5>
+          <RiCustomerService2Line /> <h5>Ui oriented</h5>
+          <MdReportProblem />
+          <h5>Probem-solving</h5>
+          <RiTeamLine />
+          <h5>Team working</h5>
+          <VscFeedback />
+          <h5>open to criticism</h5>
+          <GiTalk />
+          <h5>Communication</h5>
         </div>
         <div className="Myexperience">
-          <h5>gnom gnom</h5>
+          <p>
+            When I was a student, I worked a lot to pay my stuffs, so I have a
+            lot of experience with clients! I worked in a supermarket in caterer
+            department, so please the clients is one of my specialities!
+          </p>
         </div>
       </div>
-
-      <div className="Myjourney"></div>
     </section>
   );
 };

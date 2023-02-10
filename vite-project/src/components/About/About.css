@@ -83,6 +83,10 @@
   .about__content p {
     margin: 14rem 0 1.5rem;
   }
+
+  .about__card {
+    margin-bottom: -10rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -102,5 +106,9 @@
 
   .about__content p {
     margin: 1.5rem 0;
+  }
+
+  .about__card {
+    margin-bottom: 1em;
   }
 }
