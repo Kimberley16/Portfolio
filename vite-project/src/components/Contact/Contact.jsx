@@ -7,7 +7,6 @@ const contact = () => {
     <section id="contact">
       <h5>Get in touch</h5>
       <h2>Contact me</h2>
-
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -30,7 +29,7 @@ const contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        {/* <form action="">
           <input
             type="text"
             name="name"
@@ -47,7 +46,7 @@ const contact = () => {
           <button type="submit" className="btn btn-primary">
             Send message
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );
