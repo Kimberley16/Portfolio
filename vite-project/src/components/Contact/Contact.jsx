@@ -9,7 +9,7 @@ const contact = () => {
       <h2>Contact me</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article className="contact__option1">
             <MdEmail />
             <h4>Email</h4>
             <h5>kimberleypaladini@gmail.com</h5>
@@ -17,7 +17,7 @@ const contact = () => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          <article className="contact__option2">
             <MdEmail />
             <h4>WhatsApp</h4>
             <h5>+32487020191</h5>
