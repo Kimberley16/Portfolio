@@ -90,6 +90,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  #about {
+    margin-top: -4rem;
+  }
+
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
@@ -111,4 +115,8 @@
   .about__card {
     margin-bottom: 1em;
   }
+}
+
+#about {
+  margin-top: -4rem;
 }

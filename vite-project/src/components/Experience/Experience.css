@@ -102,3 +102,7 @@ p {
     flex-direction: column;
   }
 }
+
+#experience {
+  margin-top: -6rem;
+}

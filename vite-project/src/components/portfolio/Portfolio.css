@@ -30,6 +30,12 @@ article {
   margin: 1.2rem 0 2rem;
 }
 
+@media screen and (max-width: 1024px) {
+  #portfolio {
+    margin-top: -10rem;
+  }
+}
+
 #portfolio {
   margin-top: -12rem;
 }
