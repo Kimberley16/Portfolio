@@ -18,17 +18,21 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>BeCode training</small>
-            </article>
+            <a href="#experience">
+              <article className="about__card">
+                <FaAward className="about__icon" />
+                <h5>Experience</h5>
+                <small>BeCode training</small>
+              </article>
+            </a>
 
-            <article className="about__card">
-              <GiOpenFolder className="about__icon" />
-              <h5>Project</h5>
-              <small>My training projects</small>
-            </article>
+            <a href="#portfolio">
+              <article className="about__card">
+                <GiOpenFolder className="about__icon" />
+                <h5>Project</h5>
+                <small>My training projects</small>
+              </article>
+            </a>
           </div>
           <p>
             hi! I'm Kimberley Paladini and I tend to be a web Dev! Lorem, ipsum
